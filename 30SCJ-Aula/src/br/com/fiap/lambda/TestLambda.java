@@ -1,4 +1,4 @@
-package br.com.fiap;
+package br.com.fiap.lambda;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import br.com.fiap.lambda.Capiroto;
 
-public class TestCollections {
+public class TestLambda {
 
 	public static void main(String[] args) {
 		List<String> arrayList = new ArrayList<String>();
