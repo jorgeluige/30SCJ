@@ -8,13 +8,13 @@ public class Teste {
 	public static void main(String[] args) {
 		try {
 			
-			Usuario usuario = new Usuario("Teste", "teste@teste.com");
+			final Usuario usuario = new Usuario("Teste", "teste@teste.com");
 			
-			UsuarioHelper usuarioHelper = new UsuarioHelper();
+			final UsuarioHelper usuarioHelper = new UsuarioHelper();
 			
 			usuarioHelper.salvarUsuario(usuario);
 			
-			Usuario usuario2 = usuarioHelper.getUsuario(1);
+			final Usuario usuario2 = usuarioHelper.getUsuario(1);
 			
 			usuario2.setNome("Teste2");
 			
